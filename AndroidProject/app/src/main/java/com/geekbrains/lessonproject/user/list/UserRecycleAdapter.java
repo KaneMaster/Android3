@@ -30,6 +30,8 @@ public class UserRecycleAdapter extends RecyclerView.Adapter<UserRecycleAdapter.
 
     @Override
     public void onBindViewHolder(@NonNull UserViewHolser holder, int position) {
+
+
         holder.name.setText(users.get(position).getName());
     }
 
